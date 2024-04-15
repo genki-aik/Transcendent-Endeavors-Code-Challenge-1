@@ -16,9 +16,9 @@ I attempt to follow best practices where applicable, but since this is a rather 
     - Change directory into the backend folder by typing in the command `cd backend` from root folder.
     - Now that you are within the `backend` directory, run the command `./gradlew bootRun` to start the backend server locally. Ensure that port 8080 is free. 
 5. Now let's start the frontend to interact with the backend. Open up a new terminal window without terminating the backend server that is running locally.
-    - Change back to the root directory by typing in the command `cd ..` from the `backend` folder.
-    - Change into the `frontend` directory by running the command `cd frontend`.
-    - Start the frontend by typing in the command `npm start`.
+    - Change into the `frontend` directory by running the command `cd frontend` (This command is run from the root directory). Just make sure you are in the `frontend` directory. You can check that by typing in the command `pwd` on terminal.
+    - We need to generate `node_modules` first. Run the command `npm install`.
+    - Once that is done, start the frontend by typing in the command `npm start`.
 6. Now you should be able to interact with the website. Type in a number to see your desired results!
 
 ## Frontend UI
@@ -32,7 +32,7 @@ I opened the network tab so that you can see the request being sent to my backen
 The result is populated within my database.
 
 ## Coding Decisions
-For me, I like to keep my code readable and simple. That means small functions with good names, variables with good names, and code that is self-explanatory. You might notice the lack of comments within my code, and that is because I believe comments are not necessarily good. When code gets updated, comments can get outdated, leading to confusion in the future. While working at big tech comapnies such as Meta and Palantir, they all follow these coding paradigms.
+For me, I like to keep my code readable and simple. That means small functions with good names, variables with good names, and code that is self-explanatory. You might notice the lack of comments within my code, and that is because I believe comments are not necessarily good. When code gets updated, comments can get outdated, leading to confusion in the future. While I worked at big tech comapnies such as Meta and Palantir, they all follow these coding paradigms.
 
 There are use cases where comments might be needed, but this is not the case here.
 
