@@ -40,9 +40,13 @@ function App() {
   };
 
   return (
-    <div>
-      <h1>Post Data Component</h1>
-      <div>
+    <div className="container">
+      <h1 className="title">Transcendent Endeavors Code Challenge #1</h1>
+      <h2>
+        Show the calculation result of your input number doubled and then
+        squared!
+      </h2>
+      <div className="input-container">
         <h2>Input</h2>
         <input
           type="text"
@@ -50,13 +54,13 @@ function App() {
           onChange={handleInputChange}
           placeholder="Enter number"
         />
-        {error && <p style={{ color: "red" }}>{error}</p>}
+        {error && <p className="error">{error}</p>}
       </div>
-      <div>
-        <button onClick={handlePost}>Send POST Request</button>
+      <div className="button-container">
+        <button onClick={handlePost}>Calculate!</button>
       </div>
       {inputNumberResult && (
-        <div>
+        <div className="response-container">
           <h2>Number Doubled</h2>
           <p>{inputNumberResult.inputNumberDoubled}</p>
           <h2>Number Doubled and Squared</h2>
