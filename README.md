@@ -19,7 +19,7 @@ I attempt to follow best practices where applicable, but since this is a rather 
     - Change into the `frontend` directory by running the command `cd frontend` (This command is run from the root directory). Just make sure you are in the `frontend` directory. You can check that by typing in the command `pwd` on terminal.
     - We need to generate `node_modules` first. Run the command `npm install`.
     - Once that is done, start the frontend by typing in the command `npm start`.
-6. Now you should be able to interact with the website. Type in a number to see your desired results!
+6. Go to `localhost:3000` (The port number that the frontend is running on). Now you should be able to interact with the website. Type in a number to see your desired results!
 
 ## Frontend UI
 ![Screenshot 2024-04-15 at 3 32 59 AM](https://github.com/genki-aik/Transcendent-Endeavors-Code-Challenge-1/assets/72573851/04a2eceb-eada-467f-b114-be76dd6e3d6c)
