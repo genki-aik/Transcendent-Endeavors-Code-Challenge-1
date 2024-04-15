@@ -31,6 +31,11 @@ I opened the network tab so that you can see the request being sent to my backen
 
 The result is populated within my database.
 
+## Coding Decisions
+For me, I like to keep my code readable and simple. That means small functions with good names, variables with good names, and code that is self-explanatory. You might notice the lack of comments within my code, and that is because I believe comments are not necessarily good. When code gets updated, comments can get outdated, leading to confusion in the future. While working at big tech comapnies such as Meta and Palantir, they all follow these coding paradigms.
+
+There are use cases where comments might be needed, but this is not the case here.
+
 ## Design Decisions
 ### Backend
 For the backend, I used Spring Boot to create the API that will take in the input number and do the necessary calculations, and putting those values into the MongoDB database.
